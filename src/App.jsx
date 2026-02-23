@@ -1,4 +1,6 @@
 import Checklist from '../components/Checklist/checklist'
+import ChecklistAdd from '../components/Checklist-add/checklistAdd'
+
 import './App.css'
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
       opacity-60 mb-2"
       >24. August 2025
       </p>
-      
+
       <Checklist />
+      <ChecklistAdd />
     </div>
   )
 }
