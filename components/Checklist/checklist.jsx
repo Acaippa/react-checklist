@@ -56,7 +56,10 @@ function ChecklistItem(){
 
 export default function Checklist(){
   return(
-    <div className="checklist-wrapper">
+    <div className="
+    checklist-wrapper
+    h-screen
+    ">
       <div className="
       checklist
       flex 
